@@ -46,5 +46,5 @@ parseFloat({ toString: function() { return "3.14" } });
 ```
 
 ## 참고
-[parseInt() 설명](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
-[parseFloat() 설명](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
+- [parseInt() 설명](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
+- [parseFloat() 설명](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
