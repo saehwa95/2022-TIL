@@ -1,4 +1,4 @@
-# Today I Learned(TIL)
+# Today I Learned(TIL):memo:
 
 ## JavaScript
 - [Math.floor()](https://github.com/saehwa95/TIL/blob/main/JavaScript/Math.floor().md)
