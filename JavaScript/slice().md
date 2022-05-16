@@ -44,6 +44,6 @@ begin index나 end index가 음수이면, 배열의 끝에서부터의 길이를
 
 
 
-## 참고
+### 참고
 - https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 - https://hianna.tistory.com/398
