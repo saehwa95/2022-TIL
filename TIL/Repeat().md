@@ -1,4 +1,4 @@
-# Repeat() 메서드
+# Repeat()
 ```
 str.repeat(count);
 ```
