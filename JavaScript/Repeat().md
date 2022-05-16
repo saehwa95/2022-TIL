@@ -14,5 +14,5 @@ str.repeat(count);
 'abc'.repeat(1/0);  // RangeError
 ```
 
-## 참고
+### 참고
 - [Repeat()설명](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/repeat)
