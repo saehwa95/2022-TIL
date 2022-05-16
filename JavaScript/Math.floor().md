@@ -1,6 +1,9 @@
 # Math.floor()
 
-```Math.floor(x)```
+``` JavaScript
+Math.floor(x)
+```
+
 - ```Math.floor()``` 함수는 주어진 숫자와 같거나 작은 정수 중에서 가장 큰 수를 변환한다. 
 - ```(x)```는 숫자
 - ```Math.floor(null)```은 ```NaN``` 대신 ```0```을 반환한다.
