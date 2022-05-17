@@ -9,3 +9,4 @@
 - [slice()](https://github.com/saehwa95/TIL/blob/main/JavaScript/slice().md)
 - [연산자](https://github.com/saehwa95/TIL/blob/main/JavaScript/%EC%97%B0%EC%82%B0%EC%9E%90.md)
 - [변수](https://github.com/saehwa95/TIL/blob/main/JavaScript/%EB%B3%80%EC%88%98.md)
+- [prompt() 명령어](https://github.com/saehwa95/TIL/blob/main/JavaScript/prompt()%20%EB%AA%85%EB%A0%B9%EC%96%B4.md)
