@@ -11,3 +11,4 @@
 - [변수](https://github.com/saehwa95/TIL/blob/main/JavaScript/%EB%B3%80%EC%88%98.md)
 - [prompt() 명령어](https://github.com/saehwa95/TIL/blob/main/JavaScript/prompt()%20%EB%AA%85%EB%A0%B9%EC%96%B4.md)
 - [자료형](https://github.com/saehwa95/TIL/blob/main/JavaScript/%EC%9E%90%EB%A3%8C%ED%98%95.md) 
+- [[Math.abs()](https://github.com/saehwa95/TIL/blob/main/JavaScript/Math.abs().md)
