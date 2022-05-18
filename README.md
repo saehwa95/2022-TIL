@@ -13,3 +13,5 @@
 - [자료형](https://github.com/saehwa95/TIL/blob/main/JavaScript/%EC%9E%90%EB%A3%8C%ED%98%95.md) 
 - [Math.abs()](https://github.com/saehwa95/TIL/blob/main/JavaScript/Math.abs().md)
 - [더하기 할당(+=)](https://github.com/saehwa95/TIL/blob/main/JavaScript/%EB%8D%94%ED%95%98%EA%B8%B0%20%ED%95%A0%EB%8B%B9(%2B%3D).md)
+- [삼항 조건 연산자](https://github.com/saehwa95/TIL/blob/main/JavaScript/%EC%82%BC%ED%95%AD%20%EC%A1%B0%EA%B1%B4%20%EC%97%B0%EC%82%B0%EC%9E%90.md)
+- [while](https://github.com/saehwa95/TIL/blob/main/JavaScript/while.md)
