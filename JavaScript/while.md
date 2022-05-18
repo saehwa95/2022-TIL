@@ -41,4 +41,4 @@ while (n < 3) {
 세번째 반복; n=3 과 x=6
 
 ### 참고
-[while 설명](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/abs)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/while)
+[while 설명](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/while)
