@@ -16,3 +16,5 @@
 - [삼항 조건 연산자](https://github.com/saehwa95/TIL/blob/main/JavaScript/%EC%82%BC%ED%95%AD%20%EC%A1%B0%EA%B1%B4%20%EC%97%B0%EC%82%B0%EC%9E%90.md)
 - [while](https://github.com/saehwa95/TIL/blob/main/JavaScript/while.md)
 - [String.substring()](https://github.com/saehwa95/TIL/blob/main/JavaScript/String.substring().md)
+- [String](https://github.com/saehwa95/TIL/blob/main/JavaScript/String.md)
+- [reverse()](https://github.com/saehwa95/TIL/blob/main/JavaScript/reverse().md)
