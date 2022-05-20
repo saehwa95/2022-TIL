@@ -18,3 +18,4 @@
 - [String.substring()](https://github.com/saehwa95/TIL/blob/main/JavaScript/String.substring().md)
 - [String](https://github.com/saehwa95/TIL/blob/main/JavaScript/String.md)
 - [reverse()](https://github.com/saehwa95/TIL/blob/main/JavaScript/reverse().md)
+- [JavaScript의 자료형과 JavaScript만의 특성](https://github.com/saehwa95/TIL/blob/main/JavaScript/JavaScript%EC%9D%98%20%EC%9E%90%EB%A3%8C%ED%98%95%EA%B3%BC%20JavaScript%EB%A7%8C%EC%9D%98%20%ED%8A%B9%EC%84%B1.md)
