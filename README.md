@@ -22,6 +22,7 @@
 - [JavaScript 객체와 불변성](https://github.com/saehwa95/TIL/blob/main/JavaScript/JavaScript%20%EA%B0%9D%EC%B2%B4%EC%99%80%20%EB%B6%88%EB%B3%80%EC%84%B1.md)
 - [호이스팅과 TDZ](https://github.com/saehwa95/TIL/blob/main/JavaScript/%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85%EA%B3%BC%20TDZ.md)
 - [Math.random()](https://github.com/saehwa95/TIL/blob/main/JavaScript/Math.random().md)
+- [Event.target](https://github.com/saehwa95/TIL/blob/main/JavaScript/Event.target.md)
 
 ## CS_Study
 - [비트 모아 데이터](https://github.com/saehwa95/TIL/blob/main/CS_STUDY/%EB%B9%84%ED%8A%B8%20%EB%AA%A8%EC%95%84%20%EB%8D%B0%EC%9D%B4%ED%84%B0.md)
