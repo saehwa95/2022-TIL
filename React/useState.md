@@ -69,7 +69,7 @@ function App() {
 
 ### useState 사용 후
 ```JavaScript
-import { useState} from 'react';
+import { useState } from 'react';
 
 function App() {
   const [names, setNames] = useState(["홍길동", "김민수"]);
