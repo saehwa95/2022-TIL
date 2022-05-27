@@ -26,6 +26,8 @@
 
 ## React
 - [useState:memo:](https://github.com/saehwa95/TIL/blob/main/React/useState.md)
+- [component:memo:](https://github.com/saehwa95/TIL/blob/main/React/component.md)
+- [props:memo:](https://github.com/saehwa95/TIL/blob/main/React/props.md)
 
 ## CS_Study
 - [비트 모아 데이터](https://github.com/saehwa95/TIL/blob/main/CS_STUDY/%EB%B9%84%ED%8A%B8%20%EB%AA%A8%EC%95%84%20%EB%8D%B0%EC%9D%B4%ED%84%B0.md)
