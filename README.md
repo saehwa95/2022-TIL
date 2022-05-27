@@ -23,6 +23,7 @@
 - [호이스팅과 TDZ](https://github.com/saehwa95/TIL/blob/main/JavaScript/%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85%EA%B3%BC%20TDZ.md)
 - [Math.random()](https://github.com/saehwa95/TIL/blob/main/JavaScript/Math.random().md)
 - [Event.target](https://github.com/saehwa95/TIL/blob/main/JavaScript/Event.target.md)
+- [useState:memo:](https://github.com/saehwa95/TIL/blob/main/JavaScript/useState.md)
 
 ## CS_Study
 - [비트 모아 데이터](https://github.com/saehwa95/TIL/blob/main/CS_STUDY/%EB%B9%84%ED%8A%B8%20%EB%AA%A8%EC%95%84%20%EB%8D%B0%EC%9D%B4%ED%84%B0.md)
