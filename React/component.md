@@ -49,7 +49,7 @@ function App() {
       </ol>
     </nav>
     </div>
-    )}
+)}
 ```
 
 ### component 사용 후
@@ -76,6 +76,6 @@ function App() {
       <Header></Header>
        <Nav></Nav>
     </div>
-    )}
+)}
 ```
 
