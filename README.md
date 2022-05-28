@@ -30,7 +30,7 @@
 - [props:memo:](https://github.com/saehwa95/TIL/blob/main/React/props.md)
 
 ## CS_Study
-### 하드웨어
+#### 하드웨어
 - [하드웨어 10번](https://github.com/saehwa95/TIL/blob/main/CS_STUDY/%5B%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4%2010%EB%B2%88%5D.md)
-### 소프트웨어
+#### 소프트웨어
 - [소프트웨어 20~21번](https://github.com/saehwa95/TIL/blob/main/CS_STUDY/%5B%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4%2020~21%EB%B2%88%5D.md)
