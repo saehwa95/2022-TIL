@@ -30,4 +30,7 @@
 - [props:memo:](https://github.com/saehwa95/TIL/blob/main/React/props.md)
 
 ## CS_Study
-- [비트 모아 데이터](https://github.com/saehwa95/TIL/blob/main/CS_STUDY/%EB%B9%84%ED%8A%B8%20%EB%AA%A8%EC%95%84%20%EB%8D%B0%EC%9D%B4%ED%84%B0.md)
+### 하드웨어
+- [하드웨어 10번](https://github.com/saehwa95/TIL/blob/main/CS_STUDY/%5B%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4%2010%EB%B2%88%5D.md)
+### 소프트웨어
+- [소프트웨어 20~21번](https://github.com/saehwa95/TIL/blob/main/CS_STUDY/%5B%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4%2020~21%EB%B2%88%5D.md)
