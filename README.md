@@ -24,7 +24,7 @@
 - [Math.random()](https://github.com/saehwa95/TIL/blob/main/JavaScript/Math.random().md)
 - [Event.target](https://github.com/saehwa95/TIL/blob/main/JavaScript/Event.target.md)
 - [동기vs비동기](https://github.com/saehwa95/TIL/blob/main/JavaScript/%EB%8F%99%EA%B8%B0vs%EB%B9%84%EB%8F%99%EA%B8%B0.md)
-- [옵셔널 ](https://github.com/saehwa95/TIL/blob/main/JavaScript/%EC%98%B5%EC%85%94%EB%84%90%20%EC%B2%B4%EC%9D%B4%EB%8B%9D.md)
+- [옵셔널 체](https://github.com/saehwa95/TIL/blob/main/JavaScript/%EC%98%B5%EC%85%94%EB%84%90%20%EC%B2%B4%EC%9D%B4%EB%8B%9D.md)
 
 ## React
 - [useState:memo:](https://github.com/saehwa95/TIL/blob/main/React/useState.md)
