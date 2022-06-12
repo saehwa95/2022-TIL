@@ -37,3 +37,5 @@
 #### 소프트웨어
 - [소프트웨어 20~21번](https://github.com/saehwa95/TIL/blob/main/CS_STUDY/%5B%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%2020~21%EB%B2%88%5D.md)
 - [소프트웨어 30~31번](https://github.com/saehwa95/TIL/blob/main/CS_STUDY/%5B%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%5D%2030~31%EB%B2%88.md)
+#### 통신
+- [통신 53~56번](https://github.com/saehwa95/TIL/blob/main/CS_STUDY/%5B%ED%86%B5%EC%8B%A0%5D%2053~56%EB%B2%88.md)
