@@ -78,6 +78,7 @@ console.log(`생년월일은 ${year}년 ${month}월 ${day}일 입니다.`)
 
 
 ## 추상화
+
 ### 할당 연산자
 ```JavaScript
 let name = '코드잇'
@@ -162,4 +163,99 @@ console.log('함수 호출 후');
 
 ## 제어문
 
+### if문(if statement)
+- 어떤 특별한 조건에 따라 코드를 실행할지 말지 결정하는 문법
+- 즉, 조건을 충족하지 못하면 코드를 실행하지 않음
+```JavaScript
+if (조건부분) {
+  동작부분
+}
+```
 
+```JavaScript
+let temperature = 0;
+
+if (temperature <= 0) {
+  console.log('물이 업니다.')
+} else {
+  console.log('물이 얼지 않습니다.')
+}
+```
+
+### else if문(if statement)
+- 여러가지 조건이 있는 코드를 작성할때는 else if문 활용 가능
+```JavaScript
+let temperature = 0;
+
+if (temperature <= 0) {
+  console.log('물이 업니다.')
+} else {
+  if (temperature < 100) {
+  console.log('물이 얼지도 끓지도 않습니다.')
+  } else {
+  console.log('물이 끓습니다.')
+  }
+} 
+```
+이 내용을 else if문으로 사용하면 
+```JavaScript
+let temperature = 0;
+
+if (temperature <= 0) {
+  console.log('물이 업니다.')
+} else if (temperature < 100) {
+  console.log('물이 얼지도 끓지도 않습니다.')
+} else {
+  console.log('물이 끓습니다.')
+} 
+```
+
+### switch
+- 어떤 값을 입력했는지에 따라 다르게 동작하는 문법
+```JavaScript
+switch (비교할_값) {
+  case 조건값_1 : 
+    동작부분;
+    break;
+  case 조건값_2 : 
+    동작부분;
+    break;
+  default :
+    동작부분;
+}
+```
+- '비교할_값' 과 '조건값_1'이 일치할때 동작할 코드를 '동작부분'에 작성하고 'break'를 사용해서 switch문을 빠져나오는 방식
+- default : 비교할 값이 모든 조건과 일치하지 않을 경우에 동작하는 코드
+- switch문은 조건값과 일치하는 경우를 찾은 다음 break문을 만나기 전까지 그 아래 모든 동작을 실행
+
+### for문
+```JavaScript
+for (초기화부분; 조건부분; 추가동작부분) {
+  동작부분
+}
+```
+- 조건 부분이 충족되면 계속해서 동작부분을 반복
+- 초기화부분 : for반복문이 시작할때 가장 먼저 딱 한 번만 실행되는 부분
+- 조건부분 : 조건부분에 작성한 코드를 boolean 형태로 평가한 다음 true로 판단되면 동작부분 실행
+- 추가동작부분 : 조건부분이 true로 판단됐을때 동작부분을 실행하고 그 다음 추가적으로 동작할 부분을 작성하는 것
+
+```JavaScript
+for (let i = 1; i <=10; i++) {
+  console.log('코드잇 최고')
+}
+```
+
+### while문
+```JavaScript
+while (조건부분) {
+  동작부분
+}
+```
+
+```JavaScript
+let i = 1;
+while (i <= 10) {
+  console.log(`${i} 코드잇 최고`);
+  i++;
+}
+```
