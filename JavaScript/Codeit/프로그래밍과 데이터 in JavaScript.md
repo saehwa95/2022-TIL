@@ -104,15 +104,56 @@ let greetings = {
   },
   sayBye: function () {
     console.log('Bye!');
-  },
+  }
+};
+```
+- 점표기법 호출 시 
+```JavaScript
+greetings.sayHello();
+```
+- 파라미터가 필요한 경우
+```JavaScript
+let greetings = {
+  sayHello: function (name) {
+    console.log(`Hello! ${name}!`);
+  }
+};
 
-}
+greetings.sayHello('codeit');
 ```
 
+### 1-5. for ...in 반복문
+- 객체의 property를 가져오는 반복문이기 때문에 일반적인 for문으로는 대체할 수 없는 특별한 반복문
+- 기본구조
+```JavaScript
+  for (변수 in 객체) {
+  동작 부분
+  }
+```
+- 예제
+```JavaScript
+let codeit = {
+  name : '코드잇',
+  bornYear : 2017,
+  isVeryNice : true,
+  worstCourse : null,
+  bestCourse: '자바스크립트 프로그래밍 기초'
+}
+  
+for (let key in codeit) {
+  console.log(key);
+}
 
-### for ...in 반복문
+// let key : key라는 변수 , in codeit : codeit 객체의 property 개수만큼 반복
+// 위 console 안에는 codeit 객체의 propertyName이 출력
+```
 
-### 1-5. Date 객체
+### 1-6. Date 객체
+#### 내장 객체
+- 자바스크립트가 미리 가지고 있는 객체
+- month는 0부터 시작 -> 1월은 0번째
+- date는 일자
+- day는 요일 : 일요일부터 0 ~ 6 까지
 
 ## 2. 배열
 ### 2-1. 배열
