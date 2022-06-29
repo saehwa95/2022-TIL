@@ -157,31 +157,139 @@ for (let key in codeit) {
 
 ## 2. 배열
 ### 2-1. 배열
+```JavaScript
+let courseRanking = [
+  '자바스크립트 프로그래밍 기초',
+  'Git으로 배우는 버전 관리',
+  '컴퓨터 개론',
+  '파이썬 프로그래밍 기초'
+];
+```
+- 배열 안에 있는 값들은 ```요소``` 즉, ```element```라고 부름
+- 대괄호 안에 각 요소별로 순서를 알려주는 숫자가 매겨짐
+- 이 숫자 값을 ```index```라고 부르고 이 ```index```가 객체랑 비교했을때 ```PropertyName```의 역할
+- ```index```를 통해서 배열의 요소를 가져올 수 있음
+- 배열의 요소를 가져오는 방법은 객체의 대괄호 표기법과 동일
+
+```JavaScript
+//indexing(0부터 시작)
+console.log(배열이름[index]);
+
+//배열의 첫번째 요소에 접근하려면
+console.log(courseRanking[0]);        // 출력 : 자바스크립트 프로그래밍 기초
+```
+- 순서가 있는 값을 만들때는 객체보다 배열을 활용하는게 좀 더 간결
+- 순서가 있는 여러 값들의 묶음은 객체보다 배열 활용
 
 ### 2-2. 배열 다루기
+```JavaScript
+//배열
+let members = ['쿤갈레', 'Zerrard66', '우리생각해써', '흙토끼', 'End Miracle'];
+
+console.log(members.length);                // 출력값 : 5
+console.log(members['length']);             // 출력값 : 5
+console.log(members[members.length - 1]);   // 출력값 : End Miracle
+```
 
 ### 2-3. 배열 메소드 1
+```JavaScript
+//배열의 메소드
+let members = ['쿤갈레', 'Zerrard66', '우리생각해써', '흙토끼', 'End Miracle'];
+
+//배열의 메소드 삭제 splice
+members.splice(4);
+console.log(members);             // 출력값 : (4) ['쿤갈레', 'Zerrard66', '우리생각해써', '흙토끼']
+
+members.splice(1,1);
+console.log(members);             // 출력값 : (4) ['쿤갈레', '우리생각해써', '흙토끼', 'End Miracle']
+``` 
+- 삭제를 시작할 인덱스를 첫번째 파라미터로 넣어주고, 삭제할 갯수를 입력 : ```splice(startIndex, deleteCount)```
+- 삭제할 갯수를 전달하지 않으면 시작한 인덱스 이후의 모든 요소들 삭제
+- splice 메소드로 요소를 삭제한 다음 새로운 요소를 더 추가할 수 있음 : ```splice(startIndex, deleteCount, item)```
+- splice 메소드에 세번째 파라미터는 값을 전달하게 되면 삭제한 요소 자리에 그 값이 추가됨
+
+```JavaScript
+//배열의 메소드
+let members = ['쿤갈레', 'Zerrard66', '우리생각해써', '흙토끼', 'End Miracle'];
+
+//splice(startIndex, deleteCount, item)
+members.splice(1, 1, 'NiceCodeit', 'HiCodeit');
+console.log(members);        // 출력값 : (6) ['쿤갈레', 'NiceCodeit', 'HiCodeit', '우리생각해써', '흙토끼', 'End Miracle']
+``` 
+
 
 ### 2-4. 배열 메소드 2
+```JavaScript
+//배열의 메소드 (Array's Method)
+let members = ['쿤갈레', 'Zerrard66', '우리생각해써', '흙토끼', 'End Miracle'];
+
+// 배열의 첫 요소를 삭제 : shift()
+members.splice(0, 1);
+members.shift();
+
+// 배열의 마지막 요소를 삭제 : pop()
+members.splice(members.length -1, 1);
+members.pop();
+
+// 배열의 첫 요소로 값 추가 : unshift(value)
+members.splice(0, 0, 'NiceCodeit');
+members.unshift('NiceCodeit');
+
+// 배열의 마지막 요소로 값 추가 : push(value)
+members.splice(members.length, 0, 'HiCodeit');
+members.push('HiCodeit');
+```
 
 ### 2-5. for ...of 반복문
+```JavaScript
+  for (변수 of 배열) {
+    동작부분;
+  }
+```
+
+```JavaScript
+let influencer = ['suwonlog', 'small.tiger', 'Minam.ludens', 'cu_convenience24']
+
+for (let i = 0; i < influencer.length; i++) {
+  console.log(influencer[i]);
+}
+
+//위 내용을 for...of 사용 
+for (let element of influencer) {
+  console.log(element);
+}
+```
 
 ### 2-6. 다차원 배열
+```JavaScript
+// 다차원 배열
+let twoDimensional = [[1, 2], [3, 4]]
+
+console.log(twoDimensional[0])       //출력값 : [1, 2]
+console.log(twoDimensional[0][1])    //출력값 : 2
+```
 
 ## 3. 자료형 심화
 ### 3-1. 다양한 숫자 표기법
 
+
 ### 3-2. 숫자형 메소드
+
 
 ### 3-3. 바보 자바스크립트?
 
+
 ### 3-4. 문자열 심화
+
 
 ### 3-5. 기본형과 참조형
 
+
 ### 3-6. 참조형 복사하기
 
+
 ### 3-7. const, 변수와 상수 사이
+
 
 
 
