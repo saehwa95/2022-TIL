@@ -271,19 +271,94 @@ console.log(twoDimensional[0][1])    //출력값 : 2
 
 ## 3. 자료형 심화
 ### 3-1. 다양한 숫자 표기법
+```JavaScript
+// 숫자 표기법
+let millionaire = 1000000000;
+let myNumber = 1e9; // 지수 표기법 : 알파벳 왼편에 있는 수에 오른쪽에 있는 수만큼 10의 거듭제곱을 곱하는 의미
 
+// 16진법 (Hexadecimal)
+let hex1 = 0xff; // 255
+let hex2 = 0xFF; // 255
+
+// 8진법 (Octal)
+let octal - 0o377; // 255
+
+// 2진법 (binary numeral system)
+let binary = 0b11111111; // 255
+```
 
 ### 3-2. 숫자형 메소드
+- toFixed(0 ~ 100)
+```JavaScript
+//Number
+let myNumber = 0.3591;
 
+// toFixed(0 ~ 100)
+console.log(myNumber.toFixed(7))
+
+// 타입을 확인했을때 string이 출력
+// 만약 숫자로 사용하고 싶은 경우 Number 함수 활용하기
+// Number(myNumber.toFixed(7))
+// Number 말고 +를 붙여줘도 숫자로 출력
+```
+
+- toString(2 ~ 36)
+```JavaScript
+//Number
+let myNumber = 255;
+
+//  toString(2 ~ 36)
+console.log(myNumber.toString(2));    //출력 : 11111111
+console.log(myNumber.toString(8));    //출력 : 377
+console.log(myNumber.toString(16));   //출력 : ff
+
+// 주의사항
+// 숫자를 바로 사용할 경우 정수 형태의 숫자값은 메소드로 사용할때 점 두개 사용
+console.log(255..toString(2));
+```
 
 ### 3-3. 바보 자바스크립트?
-
+- 사람과 컴퓨터는 숫자를 다루는 방식이 다름
+- 모든 코드는 0과 1로만 이루어져있음
 
 ### 3-4. 문자열 심화
+- 문자열은 배열과 비슷한 부분이 많음
+```JavaScript
+// String
+let myString = 'Hi Codeit'
 
+// 부분 문자열 접근 slice(start, end)
+console.log(myString.slice(0, 2));            // 0번 index부터 1번 index까지 리턴
+console.log(myString.slice(3));               // 시작 지점부터 끝까지 리턴
+console.log(myString.slice());                // 문자열 전체 리턴
+
+// 대소문자 변환
+console.log(myString.toUpperCase());          // 대문자
+console.log(myString.toLowerCase());          // 소문자
+
+// 요소 탐색
+console.log(myString.indexOf('i'));           // 앞 부터
+console.log(myString.lastIndexOf('i'));       // 뒤 부터
+
+// 요소 접근
+console.log(myString[3]);                     // 대괄호 표기법
+console.log(myString.charAt(3));              // charAt 메소드
+
+// 문자열 길이
+console.log(myString.length);                 // length 프로퍼티
+```
 
 ### 3-5. 기본형과 참조형
-
+- 기본형 : String, number, undefined, null, boolean
+- 참조형 : object
+     
+- 자바스크립트에서 변수에 객체값을 할당한 경우 객체값이 어딘가에서 만들어지고, 변수에는 그 객체값으로 가는 주소가 저장
+- 변수 상자와 객체값 사이에 길이 열리는것
+   
+- 기본형 값을 변수에 담아 사용할 때는 값이 그대로 할당
+- 참조형 값을 변수에 담아 사용할 때는 해당 객체를 가리키는 주솟값이 할당
+- 참조형의 경우 변수를 통해 다른 변수에 할당하면 값 자체가 복사되는 것이 아니라 주솟값이 복사되기 때문에 결국 같은 객체를 가리킴
+- 결과적으로 한쪽을 수정하면 다른 한쪽도 같이 수정됨
 
 ### 3-6. 참조형 복사하기
 
