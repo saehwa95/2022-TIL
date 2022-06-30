@@ -361,10 +361,33 @@ console.log(myString.length);                 // length 프로퍼티
 - 결과적으로 한쪽을 수정하면 다른 한쪽도 같이 수정됨
 
 ### 3-6. 참조형 복사하기
+```JavaScript
+// 참조형 복사하기
+let course1 = {
+  title : '파이썬 프로그래밍 기초',
+  language : 'Python'
+};
 
+// 방법 1
+let course2 = Object.assign({}, course1);
+
+// 방법 2
+let course2 = {};
+
+// 똑같은 프로퍼티를 가지고 있지만 서로 독립적인 객체로 복사 가능
+for (let key in course1) {
+  course2[key] = course1[key];
+}
+
+course2.title = '알고리즘의 정석';
+
+console.log(course1);   // 출력값 : {title : '파이썬 프로그래밍 기초', language : 'Python'}
+console.log(course2);   // 출력값 : {title : '알고리즘의 정석', language : 'Python'}
+```
 
 ### 3-7. const, 변수와 상수 사이
-
-
-
+- const와 let의 차이 : 재할당 가능 여부
+- PI와 같이 변하지 않는 고정된 값을 사용할때 const 키워드로 상수를 만들어서 사용
+- ```const - 변수(variable) : myName```
+- ```const - 상수(constant) : MY_NAME```
 
