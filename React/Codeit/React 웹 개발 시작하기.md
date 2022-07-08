@@ -167,7 +167,7 @@
 
 ### 참조형 State
 - 자바스크립트의 자료형은 크게 기본형(Primitive type)과 참조형(Reference type)로 나누어짐
-  ```JXS
+  ```JSX
     const [gameHistory, setGameHistory] = useState([]);
 
     const handleRollClick = () => {
@@ -181,7 +181,7 @@
 - 그래서 ```push``` 메소드로 배열 안에 요소를 변경했다고 하더라도 결과적으로 참조하는 배열의 주솟값은 변경된 것이 아님
 - 결과적으로 리액트 입장에서는 ```gameHistory``` state가 참조하는 주솟값은 여전히 똑같기 때문에 상태(state)가 바뀌었다고 판단하지 않는 것
 - 참조형 state를 활용할 때는 반드시 새로운 참조형 값을 만들어 state를 변경해야 함 => Spread 문법 활용하기
-  ```JXS
+  ```JSX
     const [gameHistory, setGameHistory] = useState([]);
 
     const handleRollClick = () => {
