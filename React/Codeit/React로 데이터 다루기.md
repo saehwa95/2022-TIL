@@ -340,3 +340,41 @@
       );
     }
   ```
+
+## 리액트 HOOK
+- 반드시 리액트 컴포넌트 함수(Functional Component) 안에서 사용해야 함
+- 컴포넌트 함수의 최상위에서만 사용 (조건문, 반복문 안에서 못 씀)
+
+### useState
+```JavaScript
+  const [state, setState] = useState(initialState);
+```
+
+- 콜백으로 초깃값 지정
+  - 초깃값을 계산하는 코드가 복잡한 경우에 활용
+
+  ```JavaScript
+    const [state, setState] = useState(() => {
+    // ...
+    return initialState;
+    });
+  ```
+  
+- 이전 State를 참조해서 State 변경
+  - 비동기 함수에서 최신 State 값을 가져와서 새로운 State 값을 만들 때
+
+  ```JavaScript
+    setState((prevState) => {
+      // ...
+      return nextState
+    });
+  ```
+  
+### useEffect
+- 컴포넌트 함수에서 사이드 이펙트(리액트 외부의 값이나 상태를 변경할 때)에 활용하는 함수
+- 처음 렌더링 후 한 번만 실행
+  ```JavaScript
+    useEffect(() => {
+    // ...
+    }, []);
+  ```
