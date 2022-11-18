@@ -28,7 +28,7 @@ C언어나 Java와 같은 언어들은 변수 선언 시 변수에 저장할 값
 
 에러가 발생했을때 코드가 길고 복잡해질 경우 타입 에러를 찾기 어려워지는데, 이때 TypeScript나 Flow 등을 사용해 보완할 수 있다.
 
-
+- 컴파일에 대한 이해를 위해 참고한 자료 : https://devlog-of-yein.tistory.com/6
 
 
 ## JavaScript 형변환
